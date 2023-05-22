@@ -17,6 +17,6 @@ public class LearnUp20SpringBootApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(LearnUp20SpringBootApplication.class, args);
 
 		Calculator calculator = context.getBean(Calculator.class);
-		log.info("{} + {} = {}", 1, 2, calculator.calculate(1, 2, Operation.MINUS));
+		log.info("{} * {} = {}", 3, 2, calculator.calculate(3, 2, Operation.MULTIPLY));
 	}
 }
