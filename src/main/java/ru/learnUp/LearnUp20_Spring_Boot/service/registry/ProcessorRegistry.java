@@ -1,4 +1,4 @@
-package ru.learnUp.LearnUp20_Spring_Boot.service.processors.registry;
+package ru.learnUp.LearnUp20_Spring_Boot.service.registry;
 
 import org.springframework.stereotype.Component;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Operation;

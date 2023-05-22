@@ -1,7 +1,7 @@
 package ru.learnUp.LearnUp20_Spring_Boot.service;
 
 import org.springframework.stereotype.Service;
-import ru.learnUp.LearnUp20_Spring_Boot.service.processors.registry.ProcessorRegistry;
+import ru.learnUp.LearnUp20_Spring_Boot.service.registry.ProcessorRegistry;
 
 
 @Service      //@Service - это аннотация класса - бина с бизнес-логикой,

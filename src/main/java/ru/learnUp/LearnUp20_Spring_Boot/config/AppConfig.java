@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Operation;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Processor;
-import ru.learnUp.LearnUp20_Spring_Boot.service.processors.registry.ProcessorRegistry;
+import ru.learnUp.LearnUp20_Spring_Boot.service.registry.ProcessorRegistry;
 
 import java.util.Map;
 

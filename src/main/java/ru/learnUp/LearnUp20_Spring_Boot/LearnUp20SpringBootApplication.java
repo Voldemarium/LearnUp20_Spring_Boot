@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Calculator;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Operation;
+import ru.learnUp.LearnUp20_Spring_Boot.service.ValueService;
 
 @SpringBootApplication
 public class LearnUp20SpringBootApplication {
@@ -18,5 +19,7 @@ public class LearnUp20SpringBootApplication {
 
 		Calculator calculator = context.getBean(Calculator.class);
 		log.info("{} * {} = {}", 3, 2, calculator.calculate(3, 2, Operation.MULTIPLY));
+
+		context.getBean(ValueService.class).print();
 	}
 }
