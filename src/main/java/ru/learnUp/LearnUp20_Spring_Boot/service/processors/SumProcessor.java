@@ -1,10 +1,12 @@
 package ru.learnUp.LearnUp20_Spring_Boot.service.processors;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Operation;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Processor;
 
 @Component
+@Primary
 public class SumProcessor implements Processor {
 
     @Override
