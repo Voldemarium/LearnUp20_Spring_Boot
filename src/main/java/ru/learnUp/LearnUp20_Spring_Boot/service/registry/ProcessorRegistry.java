@@ -1,11 +1,10 @@
 package ru.learnUp.LearnUp20_Spring_Boot.service.registry;
 
-import org.springframework.stereotype.Component;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Operation;
 import ru.learnUp.LearnUp20_Spring_Boot.service.Processor;
 
 import java.util.Map;
-import java.util.Optional;
+
 
 public class ProcessorRegistry {
 	private final Map<Operation, Processor> registry;
